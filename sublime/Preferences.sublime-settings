@@ -1,0 +1,8 @@
+{
+	"font_size": 13,
+	"theme": "Adaptive.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}

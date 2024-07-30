@@ -1,0 +1,13 @@
+{
+    "shell_cmd": "\"C:\\Program Files\\Java\\jdk-21\\bin\\javac\" \"${file}\" && \"C:\\Program Files\\Java\\jdk-21\\bin\\java\" \"${file_base_name}\" < \"D:\\main_folder\\youknowwho\\input.txt\" > \"D:\\main_folder\\youknowwho\\output.txt\"",
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector": "source.java",
+    "encoding": "utf-8",
+    "variants": [
+        {
+            "name": "Run",
+            "shell_cmd": "\"C:\\Program Files\\Java\\jdk-21\\bin\\java\" \"${file_base_name}\" < \"D:\\main_folder\\youknowwho\\input.txt\" > \"D:\\main_folder\\youknowwho\\output.txt\""
+        }
+    ]
+}

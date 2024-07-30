@@ -1,0 +1,188 @@
+{
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c11",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.terminalRoot": "/",
+  "code-runner.executorMapByGlob": {
+      "pom.xml": "cd $dir && mvn clean package"
+  },
+  "code-runner.executorMap": {
+      "javascript": "node < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "java": "cd $dir && javac $fileName && java $fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "zig": "zig run < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "php": "php < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "python": "python -u < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "perl": "perl < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "perl6": "perl6 < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "ruby": "ruby < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "go": "go run < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "lua": "lua < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "groovy": "groovy < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "powershell": "powershell -ExecutionPolicy ByPass -File < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "bat": "cmd /c < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "shellscript": "bash < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "fsharp": "fsi < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "csharp": "scriptcs < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "vbscript": "cscript //Nologo < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "typescript": "ts-node < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "coffeescript": "coffee < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "scala": "scala < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "swift": "swift < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "julia": "julia < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "crystal": "crystal < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "ocaml": "ocaml < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "r": "Rscript < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "applescript": "osascript < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "clojure": "lein exec < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "racket": "racket < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "scheme": "csi -script < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "ahk": "autohotkey < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "autoit": "autoit3 < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "dart": "dart < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "haskell": "runghc < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "nim": "nim compile --verbosity:0 --hints:off --run < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "lisp": "sbcl --script < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "kit": "kitc --run < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "v": "v run < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "sass": "sass --style expanded < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "scss": "scss --style expanded < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "sml": "cd $dir && sml $fileName < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "solidity": "solc < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "yaml": "yq < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "groovy": "groovy < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "moon": "moonc < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt",
+      "vala": "cd $dir && valac $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < D:\\main_folder\\youknowwho\\input.txt > D:\\main_folder\\youknowwho\\output.txt"
+  },
+
+    "files.autoSave": "afterDelay",
+    "cph.general.defaultLanguage": "cpp",
+    "codesnap.showWindowTitle": true,
+    "editor.formatOnType": true,
+    "workbench.editorAssociations": {
+        "*.exe": "default"
+    },
+    "codesnap.backgroundColor": "#ccffff",
+    "code-runner.executorMapByFileExtension": {
+    
+
+
+    
+    
+        
+        ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
+        ".vbs": "cscript //Nologo",
+        ".scala": "scala",
+        ".jl": "julia",
+        ".cr": "crystal",
+        ".ml": "ocaml",
+        ".zig": "zig run",
+        ".exs": "elixir",
+        ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        ".rkt": "racket",
+        ".scm": "csi -script",
+        ".ahk": "autohotkey",
+        ".au3": "autoit3",
+        ".kt": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
+        ".kts": "kotlinc -script",
+        ".dart": "dart",
+        ".pas": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".pp": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        ".hs": "runhaskell",
+        ".nim": "nim compile --verbosity:0 --hints:off --run",
+        ".csproj": "dotnet run --project",
+        ".fsproj": "dotnet run --project",
+        ".lisp": "sbcl --script",
+        ".kit": "kitc --run",
+        ".v": "v run",
+        ".vsh": "v run",
+        ".sass": "sass --style expanded",
+        ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        ".ring": "ring",
+        ".sml": "cd $dir && sml $fileName",
+        ".mojo": "mojo run"
+    },
+    "workbench.editor.enablePreview": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "explorer.confirmDelete": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.fontVariations": false,
+    "workbench.sideBar.location": "right",
+    "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "code-runner.languageIdToFileExtensionMap": {
+
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "emmet.preferences": {
+        
+    },
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.fontFamily": " Consolas, 'Courier New', monospace",
+    "json.schemas": [],
+    
+    // i changed that section
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "storage.modifier", //static keyword
+          "storage.type", //class keyword
+          "support.class.builtin",
+          "keyword.control",
+          "constant.language",
+          "entity.other.attribute-name",
+          "entity.name.method"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "workbench.colorTheme": "Dracula Theme",
+  "terminal.integrated.fontSize": 17,
+  "window.confirmSaveUntitledWorkspace": false,
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+    
+}
